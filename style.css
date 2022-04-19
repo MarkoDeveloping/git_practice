@@ -1,0 +1,1765 @@
+
+
+*,
+
+*::before,
+
+*::after {
+
+  box-sizing: border-box;
+
+}
+
+
+
+
+
+@font-face {
+
+  font-family: 'take_cute';
+
+  src: url("/fonts/TAKE_CUTE.otf");
+
+}
+
+#banner-cont{
+
+    background-image: url("../img/pozadinaa2.jpg"); /* credits: Adonyi Gabor :) */
+
+    background-repeat: no-repeat;
+
+    background-attachment: scroll;
+
+    background-position: center center;
+
+    background-size: cover;
+
+    min-height: 100vh;
+
+    padding: 20px 0;
+
+}
+ 
+.masthead {
+
+   padding-top: 175px !important;
+
+}
+
+
+.title{
+
+    color: #fff;
+
+    margin: 20px;
+
+    outline: 0;
+
+    font-family: 'take_cute';
+
+    font-size: 48px;
+
+}
+
+.trofi-aboutUs {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.trofi-aboutUs:hover {
+    color: #97bd31 !important;
+}
+.navbar {
+
+    background: 0;
+
+    position: absolute !important;
+
+    width: 100%;
+
+}
+.navbar{
+   width: 100%; 
+}
+
+.banner-btn{
+
+    width: 200px;
+
+    height: 48px;
+
+
+
+    text-decoration: none;
+
+    color: #fff;
+
+    background-color: #9DC234;
+
+
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+
+
+    border-radius: 50px;
+
+    margin-right: 20px;
+
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.banner-btn:hover {
+    color: #fff;
+    background-color: #88aa2c;
+    transition: .5s;
+
+}
+
+.oTrof {
+    background: #97bd31;
+    border: 3px solid #fff;
+    color: #fff;
+}
+.oTrof:hover {
+    background: #fff;
+    color: #97bd31;
+}
+
+.banner-text-content{
+
+    color: #fff;
+
+    text-align: center;
+
+}
+
+
+
+.masthead-subheading{
+
+    font-size: 72px;
+
+    line-height: 76px;
+
+    font-weight: bold;
+
+    font-family: 'Signika', sans-serif;
+
+    text-align: left;
+    color: #fff;
+
+}
+
+
+
+.masthead-heading{
+    font-size: 32px;
+    line-height: 46px;
+
+    font-weight: bold;
+
+    font-family: 'Signika', sans-serif;
+
+    text-transform: uppercase;
+
+    text-align: left;
+    color: #fff;
+
+}
+
+
+
+.input-group-text{
+
+    background-color: #9DC234 !important;
+
+    border: #9DC234 !important;
+
+}
+
+
+
+.input-group-text i{
+
+    color: #fff;
+
+}
+
+
+
+.banner-text-content a{
+
+    text-decoration: none;
+
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+
+
+.banner-text-content a:hover{
+    color: #fff;
+}
+
+
+
+.banner-img-content{
+
+    background-image: url("/img/banner_image.png");
+
+    height: 390px;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: contain;
+
+}
+
+
+
+.o-nama-img{
+
+    background-image: url("/img/o_nama.jpg");
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+
+
+.trofi-oTrofidu {
+
+    width: 100% !important;
+
+    background-color: #97bd31;
+
+    color: #fff;
+
+    font-family: 'Signika', sans-serif;
+
+    font-size: 20px;
+
+}
+
+.trofi-naslovTROF {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+
+
+.jabuka-img p:nth-child(1){
+
+    color: #fff;
+
+    text-align: left;
+
+    margin: 0;
+
+    font-size: 32px;
+    
+    font-family: 'Signika', sans-serif;
+
+}
+
+.trofi-pridruzi-title{
+
+    margin-top: 50px;
+
+    margin-bottom: 50px;
+
+}
+
+.trofi-tekstt p {
+
+    font-size: 45px !important;
+
+}
+
+.trofi-pridruzi-title p{
+
+    font-size: 72px;
+
+    padding-right: 80px;
+
+    font-weight: bold;
+
+    font-family: 'Signika', sans-serif;
+
+}
+
+
+
+.trofi-pridruzi-title img{
+
+    height: 100px;
+
+}
+
+
+
+.card-img-cont{
+
+    height: 340px;
+
+    padding: 25px;
+
+}
+
+
+
+.card-body{
+
+    height: 150px;
+
+    font-family: 'Signika', sans-serif;
+
+}
+
+
+
+.card-footer{
+
+    background-color: #fff;
+
+}
+
+
+
+.card-btn{
+
+    width: 200px;
+
+    height: 48px;
+
+
+
+    text-decoration: none;
+
+    color: white;
+
+    background-color: #9DC234;
+
+
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+
+
+    border-radius: 50px;
+
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center; 
+
+}
+
+
+
+.card-btn:hover
+
+{
+
+    color: #fff;
+
+}
+
+
+
+.app-container{
+
+    background-color: #2c2b2b;
+
+    height: 350px;
+
+}
+
+
+
+.app-cont {
+
+    height: 350px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+
+
+.app-cont p {
+
+    font-size: 40px;
+
+    line-height: 76px;
+
+    font-family: 'take_cute';
+
+    color: #fff;
+
+}
+
+
+
+.app-cont img {
+
+    width: 250px;
+
+}
+
+
+
+.trofi-phone img {
+
+    position: relative;
+
+    top: -25px;
+
+
+
+    height: 400px;
+
+}
+
+.form-control:focus, .btn-primary:focus {
+
+    border-color: #9DC234 !important;
+
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(116, 212, 6, 0.6) !important;
+
+}
+
+.btn-primary {
+
+    background-color: #9DC234 !important;
+
+    border: 1px solid #9DC234 !important;
+
+}
+
+.big-category-btn{
+
+    width: 500px;
+
+    height: 270px;
+
+
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    color: white;
+
+    background-color: #9DC234;
+
+
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    font-family: 'Signika', sans-serif;
+
+
+
+    border-radius: 2px;
+
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center; 
+
+
+
+    background-image: url("/img/mlijecni.jpg");
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+
+
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+}
+
+.col-3 {
+
+    width: 20% !important;
+
+}
+
+.big-category-btn-two{
+
+    width: 500px;
+
+    height: 270px;
+
+
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    color: white;
+
+    background-color: #9DC234;
+
+
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    font-family: 'Signika', sans-serif;
+
+
+
+    border-radius: 2px;
+
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center; 
+
+
+
+    background-image: url("/img/mesni.jpg");
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+
+
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+}
+
+.small-category-btn-jedan {
+    width: 270px;
+    height: 270px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #9DC234;
+
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+
+    border-radius: 2px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+
+    background-image: url("/img/mlijecni.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+}
+.small-category-btn-cetri {
+    width: 270px;
+
+    height: 270px;
+
+
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    color: white;
+
+    background-color: #9DC234;
+
+
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    font-family: 'Signika', sans-serif;
+
+
+
+    border-radius: 2px;
+
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center; 
+
+
+
+    background-image: url("/img/mesni.jpg");
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+
+
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+}
+.small-category-btn{
+
+    width: 270px;
+
+    height: 270px;
+
+
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    color: white;
+
+    background-color: #9DC234;
+
+
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    font-family: 'Signika', sans-serif;
+
+
+
+    border-radius: 2px;
+
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center; 
+
+
+
+    background-image: url("/img/povrce.jpg");
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+
+
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+}
+
+
+
+.small-category-btn-two{
+
+    width: 270px;
+
+    height: 270px;
+
+
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    color: white;
+
+    background-color: #9DC234;
+
+
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    font-family: 'Signika', sans-serif;
+
+
+
+    border-radius: 2px;
+
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center; 
+
+
+
+    background-image: url("/img/rakija.jpg");
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+
+
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+}
+
+/* .col-6 {
+
+    min-height: 450px !important;
+
+    max-height: 500px !important;
+
+} */
+
+.small-category-btn-three{
+
+    width: 270px;
+
+    height: 270px;
+
+
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    color: white;
+
+    background-color: #9DC234;
+
+
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    font-family: 'Signika', sans-serif;
+
+
+
+    border-radius: 2px;
+
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center; 
+
+
+
+    background-image: url("/img/med.jpg");
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+
+
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+}
+
+
+
+.small-category-btn-four{
+
+    width: 270px;
+
+    height: 270px;
+
+
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    color: white;
+
+    background-color: #9DC234;
+
+
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    font-family: 'Signika', sans-serif;
+
+
+
+    border-radius: 2px;
+
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center; 
+
+
+
+    background-image: url("/img/voce.jpg");
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+
+
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+}
+
+
+
+.big-category-btn:hover,
+
+.big-category-btn-two:hover,
+
+.small-category-btn:hover,
+
+.small-category-btn-jedan:hover,
+
+.small-category-btn-cetri:hover,
+
+.small-category-btn-two:hover,
+
+.small-category-btn-three:hover,
+
+.small-category-btn-four:hover
+
+{
+
+    color: #9DC234;
+
+}
+
+
+
+.category-title{
+
+    font-size: 48px;
+
+    font-weight: bold;
+
+    font-family: 'Signika', sans-serif;
+
+
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+}
+
+
+
+.category-subtitle{
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    font-family: 'Signika', sans-serif;
+
+
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+}
+
+
+
+#footer{
+
+    padding: 20px;
+
+    background-color: #2c2b2b;
+
+    color: #fff;
+
+    font-family: 'Signika', sans-serif;
+
+}
+
+
+
+hr{
+
+    border: 1px solid #9DC234 !important;
+
+}
+
+
+
+.social-media-btn{
+
+    width: 50px;
+
+    height: 50px;
+
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center; 
+
+
+
+    background-image: url("/img/facebook.png");
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+
+
+.social-media-btn-two{
+
+    width: 50px;
+
+    height: 50px;
+
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center; 
+
+
+
+    background-image: url("/img/instagram.png");
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+
+
+.social-media-btn-three{
+
+    width: 50px;
+
+    height: 50px;
+
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center; 
+
+
+
+    background-image: url("/img/email.png");
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 1200px) {
+    .masthead {
+        padding-top: 275px !important;
+    }
+}
+@media (min-width: 1600px) {
+    .masthead {
+        padding-top: 400px !important;
+    }    
+}
+@media (max-width: 991px) {
+
+    .app-container{
+
+        background-color: #2c2b2b;
+
+        height: 350px;
+
+    }
+
+    .col-3 {
+
+        width: 25% !important;
+
+    }
+
+    .app-cont {
+
+        width: 40% !important;
+
+    }
+
+    .app-cont {
+
+        height: 350px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+    }
+
+    
+
+    .app-cont p {
+
+        font-size: 40px;
+
+        line-height: 76px;
+
+        font-family: 'take_cute';
+
+        color: #fff;
+
+    }
+
+    
+
+    .app-cont img {
+
+        width: 200px;
+
+    }
+
+    
+
+    .trofi-phone img {
+
+        position: relative;
+
+        top: -25px;
+
+        height: 400px;
+
+
+
+    }
+
+    .card-body{
+
+        padding: 0 !important;
+
+    }
+
+    .trofi-pridruzi-title{
+
+        margin: 0;
+
+    }
+
+    .trofi-pridruzi-title p{
+
+        margin-top: 20px;
+
+        font-size: 50px;
+
+        padding-right: 50px;
+
+    }
+
+    .card-img-cont{
+
+        height: 340px;
+
+        padding: 0;
+
+        margin: 0 13px;
+
+    }
+
+    .banner-text-content p:nth-child(1){
+
+        font-size: 70px;
+
+        line-height: 76px;
+
+        font-weight: bold;
+
+        font-family: 'Signika', sans-serif;
+
+        text-align: left;
+
+    }
+
+    .banner-text-content p:nth-child(2){
+
+        font-size: 23px;
+
+        line-height: 37px;
+
+        font-weight: bold;
+
+        font-family: 'Signika', sans-serif;
+
+        text-transform: uppercase;
+
+        text-align: left;
+
+    }
+
+    .banner-text-content a{
+
+        font-size: 20px;
+
+    }
+
+    .category-title{
+
+        font-size: 48px;
+
+    }
+
+    
+
+    .category-subtitle{
+
+        font-size: 20px;
+
+        text-align: center;
+
+        text-transform: uppercase;
+
+    }
+
+}
+
+@media (max-width: 880px) {
+
+    .col-6 {
+
+        width: 100% !important;
+
+    }
+
+    .app-cont {
+
+        height: 350px;
+
+        display: flex;
+
+    }
+
+    .trofi-phone {
+
+        display: none !important;
+
+    }
+
+    .app-cont p {
+
+        font-size: 50px !important;
+
+        line-height: 76px;
+
+        text-align: center;
+
+        font-family: 'take_cute';
+
+        color: #fff;
+
+    }
+
+    .app-cont img {
+
+        width: 300px;
+
+    }
+
+}
+
+@media (max-width: 785px) {
+
+    .trofi-pridruzi-title p{
+
+        margin-top: 20px;
+
+        font-size: 50px;
+
+        padding-right: 50px;
+
+    }
+
+    .trofi-pridruzi-title img{
+
+        height: 80px;
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .container, .container-md, .container-sm {
+
+        max-width: 800px !important;
+
+    }
+
+    .big-category-btn {
+
+        font-size: 30px;
+
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .big-category-btn {
+
+        font-size: 30px;
+
+    }
+
+    .banner-text-content p:nth-child(1){
+
+        font-size: 65px;
+
+        line-height: 76px;
+
+        font-weight: bold;
+
+        font-family: 'Signika', sans-serif;
+
+        text-align: left;
+
+    }
+
+    .banner-text-content p:nth-child(2){
+
+        font-size: 18px;
+
+        line-height: 37px;
+
+        font-weight: bold;
+
+        font-family: 'Signika', sans-serif;
+
+        text-transform: uppercase;
+
+        text-align: left;
+
+    }
+
+    .banner-text-content a{
+
+        font-size: 20px;
+
+    }
+
+    .trofi-oTrofidu {
+
+        font-size: 18px;
+
+    }
+
+    .trofi-naslovTROF {
+
+        font-size: 30px;
+
+    }
+
+    .trofi-tekstt p {
+
+        font-size: 30px !important;
+
+    }
+
+}
+
+
+
+@media (max-width: 667px) {
+
+    .category-title{
+
+        font-size: 45px;
+
+    }
+
+    .big-category-btn {
+
+        text-align: center !important;
+
+    }
+
+    .big-category-btn-two {
+
+        text-align: center !important;
+
+    }
+
+    .category-subtitle{
+
+        font-size: 17px;
+
+        text-align: center;
+
+        text-transform: uppercase;
+
+    }
+
+    .col-6 {
+
+        width: 100% !important;
+
+    }
+
+    .app-cont {
+
+        height: 350px;
+
+        display: flex;
+
+    }
+
+    .trofi-phone {
+
+        display: none !important;
+
+    }
+
+    .app-cont p {
+
+        font-size: 40px !important;
+
+        line-height: 76px;
+
+        text-align: center;
+
+        font-family: 'take_cute';
+
+        color: #fff;
+
+    }
+
+    .app-cont img {
+
+        width: 250px;
+
+    }
+
+    .trofi-pridruzi-title p{
+
+        margin-top: 20px;
+
+        font-size: 40px;
+
+        padding-right: 45px;
+
+    }
+
+    .trofi-pridruzi-title img{
+
+        height: 70px;
+
+    }
+
+    .pb-5 {
+
+        flex-direction: column;
+
+    }
+
+    .trofi-dugmici {
+
+        width: 100% !important;
+
+        margin: 25px 0;
+
+    }
+
+    .small-category-btn {
+
+        width: 500px;
+
+    }
+
+    .small-category-btn,
+
+    .small-category-btn-two,
+
+    .small-category-btn-three,
+
+    .small-category-btn-cetri,
+
+    .small-category-btn-jedan,
+
+    .small-category-btn-four
+
+    {
+
+        width: 500px;
+
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    .container, .container-md, .container-sm {
+
+        max-width: 650px !important;
+
+    }
+
+}
+
+@media (max-width: 560px) {
+
+    .category-subtitle {
+
+        display: none;
+
+    }
+
+    .category-title {
+
+        color: #fff;
+
+    }
+
+    .app-container {
+
+        display: none !important;
+
+    }
+
+    .banner-btn{
+
+        width: 150px;
+
+        height: 48px;
+
+    }
+
+    .trofi-pridruzi-title p{
+
+        margin-top: 20px;
+
+        font-size: 32px;
+
+        padding-right: 45px;
+
+    }
+
+    .trofi-pridruzi-title img{
+
+        height: 50px;
+
+    }
+
+    .card-body {
+
+        padding: 16px !important;
+
+    }
+
+    .col-4 {
+
+        width: 100% !important;
+
+    }
+
+    .card-img-cont{
+
+        height: 340px;
+
+        margin: 30px 0 !important;
+
+        margin: 0 13px;
+
+    }
+
+    .card-img-top {
+
+        width: auto !important;
+
+    }
+
+    .o-nama-img {
+
+        display: none;
+
+    }
+
+    .col-6 {
+
+        width: unset !important;
+
+    }
+
+    .col-7 {
+
+        width: unset !important;
+
+    }
+
+    .banner-img-content{
+
+        display: none;
+
+        background-image: none;
+
+    }
+
+    .banner-text-content{
+
+        color: #fff;
+
+        text-align: center;
+
+        justify-content: center;
+
+        align-items: center;
+
+    }
+
+    .banner-text-content p:nth-child(1){
+
+        font-size: 60px;
+
+        line-height: 76px;
+
+        font-weight: bold;
+
+        font-family: 'Signika', sans-serif;
+
+        text-align: center;
+
+    }
+
+    .banner-text-content p:nth-child(2){
+
+        font-size: 17px;
+
+        line-height: 20px;
+
+        font-weight: bold;
+
+        font-family: 'Signika', sans-serif;
+
+        text-transform: uppercase;
+
+        text-align: center;
+
+    }
+
+    .banner-text-content p:nth-child(2) br{
+
+        display: none;
+
+    }
+    .trofi-nestoVise {
+        justify-content: space-around !important;
+    }
+    .banner-text-content a{
+        
+        font-size: 20px;
+
+    }
+
+    .trofi-dugmici {
+
+        margin: 20px 0 !important;
+
+    }
+
+    .trofi-kateg {
+
+        background-color: #97bd31;
+
+    }
+
+    .trofi-zatelefon {
+
+        display: flex;
+
+        flex-direction: column-reverse;
+
+        width: 100% !important;
+
+    }
+
+    .col-12-respon {
+
+        flex-direction: column !important;
+
+    }
+
+    .text-cont {
+        font-size: 30px;
+        text-align: left !important;
+        align-items: left !important;
+    }
+
+    .trofi-tekstt p {
+
+        font-size: 20px !important;
+
+        line-height: 30px !important;
+
+    }
+
+}
+
+@media (max-width: 466px) {
+
+    .trofi-pridruzi-title p{
+
+        margin-top: 20px;
+
+        font-size: 25px;
+
+        padding-right: 45px;
+
+    }
+
+    .card-img-cont{
+
+        height: 320px;
+
+        margin: 30px 0 !important;
+
+    }
+
+    .card-img-top {
+
+        width: auto !important;
+
+    }
+
+    .banner-text-content p:nth-child(1){
+
+        font-size: 55px;
+
+        text-align: center;
+
+    }
+
+}
+
+@media (max-width: 413px) {
+
+    .trofi-pridruzi-title p{
+
+        margin-top: 20px;
+
+        font-size: 20px;
+
+        padding-right: 45px;
+
+    }
+
+    .navbar {
+
+        flex-wrap: nowrap !important;
+
+    }
+
+    .card-img-top {
+
+        width: 100% !important;
+
+    }
+
+}
+
+@media (max-width: 362px) {
+
+    .navbar {
+
+        position: relative !important;
+
+        background: #88aa2c;
+
+    }
+
+}
